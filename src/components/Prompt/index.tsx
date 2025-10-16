@@ -63,7 +63,7 @@ const Prompt: SFC<PromptProps> = (props) => {
 
             default:
                 // support alphanumeric, space, and limited puntuation only
-                const re = /[a-z0-9,.<>/?[\]{}'";:*&^%$#@!~]/
+                const re = /.*/
                 if (key.length === 1 && key.match(re)) {
                     setValue(value + key);
                 }

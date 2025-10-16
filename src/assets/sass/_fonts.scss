@@ -1,8 +1,8 @@
 @font-face {
     font-family: "Vga";
-    src: url("../fonts/vga.woff") format("woff"),
-        url("../fonts/vga.woff2") format("woff2"),
-        url("../fonts/vga.ttf") format("truetype");
+    src: url("../fonts/Frontrunner.woff") format("woff"),
+        url("../fonts/Frontrunner.woff2") format("woff2"),
+        url("../fonts/Frontrunner.ttf") format("truetype");
     font-weight: normal;
     font-style: normal;
 }
@@ -10,7 +10,7 @@
 // TODO: add theme mixins
 $font-family: "Vga", Menlo, Monaco, Consolas, "Courier New", monospace;
 
-$scalefactor: 2.0;
+$scalefactor: 1.0;
 // the following values are font-dependant
 
 $fontsize: 24px * $scalefactor;
